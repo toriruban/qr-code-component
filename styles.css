@@ -51,7 +51,8 @@ body {
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
-    color: var(--color-slate-900, --color-slate-900-fallback);
+    color: var(--color-slate-900, var(--color-slate-900-fallback));
+
     margin: 0;
 }
 
@@ -59,7 +60,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     line-height: 1.4;
-    color: var(--color-slate-500, --color-slate-500-fallback);
+    color: var(--color-slate-500, var(--color-slate-500-fallback));
     text-align: center;
     margin: 0;
     padding: 0 16px;
